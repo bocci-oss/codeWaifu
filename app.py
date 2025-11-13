@@ -107,7 +107,7 @@ if user_input := st.chat_input("Please enter your message..."):
     with st.chat_message("user", avatar="🧑"):
         st.markdown(user_input)
 
-    with st.spinner(f"{chatbot_name}is thinking..."):
+    with st.spinner(f"{chatbot_name} is thinking..."):
         try:
             response = chain.invoke(
                 {
