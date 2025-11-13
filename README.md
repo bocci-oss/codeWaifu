@@ -28,8 +28,8 @@ Follow these steps to get Miyuki Waifu Chat up and running on your local machine
 First, clone this repository to your local machine:
 
 ```bash
-git clone <repository_url> # Replace with your repository URL
-cd waifu-chat-project # Or whatever your project folder is named
+git clone https://github.com/bocci-oss/codeWaifu.git
+cd codeWaifu
 ```
 
 ### 3. Create a Virtual Environment and Install Dependencies
